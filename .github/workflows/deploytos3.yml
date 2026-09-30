@@ -1,6 +1,5 @@
-name: Upload Website
-
-on:
+name: Upload S3 Website
+'on':
   push:
     branches:
       - master
