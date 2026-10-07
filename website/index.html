@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Ryan Lovatt's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
@@ -22,11 +22,15 @@
             </li>
 
             <li>
-                <a href="#certificationsandknowledge">Knowledgebase and Certifications</a>
+                <a href="#educationandcertificates">Education and Certifications</a>
             </li>
 
              <li>
                 <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#knowledgebase">Knowledgebase</a>
             </li>
 
              <li>
@@ -43,7 +47,7 @@
 
     <section id="about" class="about">
         <div class="about-container">
-            <img src="RyanLovatt_Profile_Picture.jpg" alt="">
+            <img src="assets/images/RyanLovatt_Profile_Picture.jpg" alt="">
 
                 <div class="info-box">
 
@@ -54,7 +58,11 @@
                 </div>
 
                 <div class="btn-group">
-                    <div class="btn">Download Resume</div>
+                    <!-- TESTING FOR LOCAL DOWNLOAD AND IS SUCCESSFUL-->
+                    <a href="assets/documents/RyanLovatt_Resume_Master_2026.docx" download "Ryan_Lovatt_resume.pdf" class="btn">
+                        Download Resume
+                    </a>
+                    <!--<div class="btn">Download Resume</div>-->
                     <div class="btn">Contact</div>
                 </div>
 
@@ -112,62 +120,27 @@
 
         </div>
 
-        <img src="RyanLovatt_Profile_Picture.jpg" alt="">
+        <img src="assets/images/RyanLovatt_Profile_Picture.jpg" alt="">
 
     </div>
 
 </section>
 
-<section id="certificationsandknowledge" class="certificationsandknowledge">
+<section id="educationandcertificates" class="educationandcertificates">
 
-    <!-- Knowledgebase -->
-    <h2 class="section-title">Knowledgebase</h2>
+    <!--Education-->
+    <h2 class="section-title">Education</h2>
 
-    <div class="kb-info">
+    <div class="education-info">
+
         <div class="grid">
 
             <div class="grid-card">
-                <i class="fa-brands fa-python"></i>
-                <span>Python</span>
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Electronics Engineering Technology - Advanced Diploma</span>
+                <h2>Sheridan College Institute of Technology and Advanced Learning</h2>
+                <h3>2013 - 2015</h3>
             </div>
-
-            <div class="grid-card">
-                <i class="fa-solid fa-database"></i>
-                <span>SQL</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-regular fa-file-code"></i>
-                <span>HTML</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-brands fa-css"></i>
-                <span>CSS</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-solid fa-terminal"></i>
-                <span>Bash</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-solid fa-code"></i>
-                <span>Terraform</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-regular fa-file-code"></i>
-                <span>C/C++</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-solid fa-bars-progress"></i>
-                <span>And Others</span>
-            </div>
-
-        </div>
-    </div>
 
     <!-- Certifications -->
     <h2 class="section-title">Certifications</h2>
@@ -217,7 +190,7 @@
 
     <div class="projects-grid">
         <div class="project-card">
-            <img src="bat_logo_echo.jpg" alt="">
+            <img src="assets/images/bat_logo_echo.jpg" alt="">
             <h3>Electronics Homelab</h3>
             <p>An electronics lab to tinker and create workable prototypes using Arduino Uno, a Creality3 3D Printer, and soldering station</p>
             <div class="btn-group">
@@ -227,7 +200,7 @@
         </div>
 
         <div class="project-card">
-            <img src="bat_logo_echo.jpg" alt="">
+            <img src="assets/images/bat_logo_echo.jpg" alt="">
             <h3>This Website</h3>
             <p>Resources provisioned using Terraform and hosted on an EC2 instance via AWS</p>
 
@@ -240,7 +213,7 @@
         </div>
 
         <div class="project-card">
-            <img src="bat_logo_echo.jpg" alt="">
+            <img src="assets/images/bat_logo_echo.jpg" alt="">
             <h3>Home Media Server</h3>
             <p>Created a localized media server for network connected televisions on my house's network to access Pictures, Movies, and TV Shows from an old tower PC</p>
             <div class="btn-group">
@@ -250,7 +223,7 @@
         </div>
 
         <div class="project-card">
-            <img src="bat_logo_echo.jpg" alt="">
+            <img src="assets/images/bat_logo_echo.jpg" alt="">
             <h3>Eavesdropper Glove</h3>
             <p>Glove outfitted with multiple microphones on the tips of the fingers enchanced by an audio amplifier circuit to allow police or military to listen through walls</p>
             <div class="btn-group">
@@ -261,7 +234,7 @@
 
 
         <div class="project-card">
-            <img src="python.jfif" alt="">
+            <img src="assets/images/python.jfif" alt="">
             <h3>DnD Dice Roll</h3>
             <p>A Python script simulating multiple dice rolls</p>
             <div class="btn-group">
@@ -271,7 +244,7 @@
         </div>
 
         <div class="project-card">
-            <img src="python.jfif" alt="">
+            <img src="assets/images/python.jfif" alt="">
             <h3>UFO Invaders</h3>
             <p>A Python web game where you defend earth from invaders from beyond the stars</p>
             <div class="btn-group">
@@ -281,7 +254,7 @@
         </div>
 
         <div class="project-card">
-            <img src="python.jfif" alt="">
+            <img src="assets/images/python.jfif" alt="">
             <h3>Python Password Generator</h3>
             <p>A Python script to select the length and generate random passwords </p>
             <div class="btn-group">
@@ -291,7 +264,7 @@
         </div>
 
         <div class="project-card">
-            <img src="bash.png" alt="">
+            <img src="assets/images/bash.png" alt="">
             <h3>Bash Password Generator</h3>
             <p>A Bash script to select the length and generate random passwords</p>
             <div class="btn-group">
@@ -301,7 +274,7 @@
         </div>
 
         <div class="project-card">
-            <img src="bash.png" alt="">
+            <img src="assets/images/bash.png" alt="">
             <h3>System Check</h3>
             <p>A Bash script to select the systems you wish to check on your local machine</p>
             <div class="btn-group">
@@ -311,7 +284,7 @@
         </div>
 
         <div class="project-card">
-            <img src="python.jfif" alt="">
+            <img src="assets/images/python.jfif" alt="">
             <h3>Mad Libs</h3>
             <p>A Python script to have some fun with some mad libs</p>
             <div class="btn-group">
@@ -322,6 +295,63 @@
     </div>
 
 </section>
+
+<section id="knowledgebase" class="knowledgebase">
+
+<!-- Knowledgebase -->
+<h2 class="section-title">Knowledgebase</h2>
+
+<div class="kb-info">
+    <div class="grid">
+
+        <div class="grid-card">
+            <i class="fa-brands fa-python"></i>
+            <span>Python</span>
+        </div>
+
+        <div class="grid-card">
+            <i class="fa-solid fa-database"></i>
+            <span>SQL</span>
+        </div>
+
+        <div class="grid-card">
+            <i class="fa-regular fa-file-code"></i>
+            <span>HTML</span>
+        </div>
+
+        <div class="grid-card">
+            <i class="fa-brands fa-css"></i>
+            <span>CSS</span>
+        </div>
+
+        <div class="grid-card">
+            <i class="fa-solid fa-terminal"></i>
+            <span>Bash</span>
+        </div>
+
+        <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <span>Terraform</span>
+        </div>
+
+        <div class="grid-card">
+            <i class="fa-regular fa-file-code"></i>
+            <span>C/C++</span>
+        </div>
+
+        <div class="grid-card">
+            <i class="fa-solid fa-bars-progress"></i>
+            <span>And Others</span>
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+
+</section>
+
 
 <section id="contact" class="contact">
     <div class="input-box">
@@ -343,24 +373,28 @@
             <a href="#about">About</a>
         </li>
 
-       <li>
+            <li>
             <a href="#experience">Experience</a>
         </li>
 
         <li>
+            <a href="#educationandcertificates">Education and Certifications</a>
+        </li>
+
+            <li>
             <a href="#projects">Projects</a>
         </li>
 
         <li>
-            <a href="#certificationsandknowledge">Knowledgebase and Certifications</a>
+            <a href="#knowledgebase">Knowledgebase</a>
         </li>
 
-        <li>
+            <li>
             <a href="#contact">Contact</a>
         </li>
     </ul>
 
-    <p class="copyright">&#169 All Rights Reserved | Ryan Lovatt</p>
+    <p class="copyright">&#169 All Rights Reserved | Ryan Lovatt | 2026</p>
 </footer>
 
     <script src="script.js"></script>

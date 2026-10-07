@@ -376,6 +376,33 @@ footer ul li a{
     margin-top: 2rem;
 }
 
+.education-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    width: 100%;
+}
+
+.education-column,
+.certificates-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.education-column h3,
+.certificates-column h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.grid-card {
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
 
 @media(max-width:1280px) {
     header{
