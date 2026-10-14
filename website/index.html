@@ -3,399 +3,689 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Ryan Lovatt's portfolio showcasing IT experience, certifications, technical skills, and personal projects."
+    >
+
     <title>Ryan Lovatt's Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <!-- Font Awesome icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
 </head>
+
 <body>
 
+    <!-- ================= HEADER & NAVIGATION ================= -->
+
     <header class="header">
-        <a href="#" class="logo"><span>Ryan Lovatt</span></a>
+        <a href="#about" class="logo">
+            <span>Ryan Lovatt</span>
+        </a>
 
         <ul class="nav-links">
-            <li>
-                <a href="#about">About</a>
-            </li>
-
-             <li>
-                <a href="#experience">Experience</a>
-            </li>
-
-            <li>
-                <a href="#educationandcertificates">Education and Certifications</a>
-            </li>
-
-             <li>
-                <a href="#projects">Projects</a>
-            </li>
-
-            <li>
-                <a href="#knowledgebase">Knowledgebase</a>
-            </li>
-
-             <li>
-                <a href="#contact">Contact</a>
-            </li>
-
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#educationandcertificates">Education and Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#knowledgebase">Knowledgebase</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-        <a href="https://github.com/RLovatt85" target="_blank">
-            <button class="visit-btn">Visit Github</button>
-        <a href="https://github.com/RLovatt85" target="_blank"></a>
+        <i
+            class="fa-solid fa-bars"
+            id="menu-icon"
+            aria-label="Toggle navigation"
+            role="button"
+            tabindex="0"
+            aria-expanded="false"
+        ></i>
+
+        <a
+            href="https://github.com/RLovatt85"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="visit-btn"
+        >
+            Visit GitHub
+        </a>
     </header>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
 
     <section id="about" class="about">
         <div class="about-container">
-            <img src="assets/images/RyanLovatt_Profile_Picture.jpg" alt="">
 
-                <div class="info-box">
+            <img
+                src="assets/images/RyanLovatt_Profile_Picture.jpg"
+                alt="Ryan Lovatt"
+            >
 
-                    <div class="text">
-                        <h3>Hi, I'm</h3>
-                        <h1>Ryan Lovatt</h1>
-                        <span>Technical Specialist</span>
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Ryan Lovatt</h1>
+                    <span>Technical Specialist</span>
                 </div>
 
                 <div class="btn-group">
-                    <!-- TESTING FOR LOCAL DOWNLOAD AND IS SUCCESSFUL-->
-                    <a href="assets/documents/RyanLovatt_Resume_Master_2026.docx" download "Ryan_Lovatt_resume.pdf" class="btn">
+                    <a
+                        href="assets/documents/RyanLovatt_Resume_Master_2026.docx"
+                        download="Ryan_Lovatt_Resume_2026.docx"
+                        class="btn"
+                    >
                         Download Resume
                     </a>
-                    <!--<div class="btn">Download Resume</div>-->
-                    <div class="btn">Contact</div>
+
+                    <a href="#contact" class="btn">
+                        Contact
+                    </a>
                 </div>
 
                 <div class="socials">
-                    <a href="https://github.com/RLovatt85" target="_blank">
+                    <a
+                        href="https://github.com/RLovatt85"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub profile"
+                    >
                         <i class="fa-brands fa-square-github"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/ryanlovatttech/" target="_blank">
-                        <i class="fa-brands fa-square-linkedin"></i>
+                    <a
+                        href="https://www.linkedin.com/in/ryanlovatttech/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn profile"
+                    >
+                        <i class="fa-brands fa-linkedin"></i>
                     </a>
-
                 </div>
-
             </div>
+
         </div>
     </section>
 
 
-<section id="experience" class="experience">
+    <!-- ================= EXPERIENCE SECTION ================= -->
 
-    <h2 class="section-title">Experience</h2>
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
 
-    <div class="experience-info">
+        <div class="experience-info">
+            <div class="grid">
 
-        <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Technical Professional Development</span>
+                    <h2>Independent Professional Development</h2>
+                    <h3>Sept 2025 - Present</h3>
+                </div>
 
-            <div class="grid-card">
-                <i class="fa-solid fa-laptop-code"></i>
-                <span>Technical Professional Development</span>
-                <h2>Independent Professional Development</h2>
-                <h3>Sept 2025 - Present</h3>
+                <div class="grid-card">
+                    <i class="fa-solid fa-computer"></i>
+                    <span>Level 2 IT Support Technical Specialist</span>
+                    <h2>Canadian Tire Corporation</h2>
+                    <h3>Feb 2021 - Sept 2025</h3>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-building-shield"></i>
+                    <span>Security System Installer</span>
+                    <h2>Subforce</h2>
+                    <h3>Sept 2020 - Feb 2021</h3>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-car-side"></i>
+                    <span>Parts Manager</span>
+                    <h2>Performance Auto Group Collision</h2>
+                    <h3>June 2015 - Sept 2020</h3>
+                </div>
+
             </div>
 
-            <div class="grid-card">
-                <i class="fa-solid fa-computer"></i>
-                <span>Level 2 IT Support Technical Specialist</span>
-                <h2>Canadian Tire Corporation</h2>
-                <h3>Feb 2021 - Sept 2025</h3>
+            <img
+                src="assets/images/RyanLovatt_Profile_Picture.jpg"
+                alt="Ryan Lovatt"
+            >
+        </div>
+    </section>
+
+
+    <!-- ================= EDUCATION & CERTIFICATIONS ================= -->
+
+    <section
+        id="educationandcertificates"
+        class="educationandcertificates"
+    >
+
+        <!-- Education -->
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-info">
+            <div class="grid">
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-microchip"></i>
+                    <span>
+                        Electronics Engineering Technology - Advanced Diploma
+                    </span>
+                    <h2>
+                        Sheridan College Institute of Technology and
+                        Advanced Learning
+                    </h2>
+                    <h3>2013 - 2015</h3>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Certifications -->
+
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="certs-info">
+            <div class="grid">
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-certificate"></i>
+                    <span>CompTIA A+</span>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-certificate"></i>
+                    <span>CompTIA Network+</span>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-brands fa-aws"></i>
+                    <span>
+                        AWS Certified Solutions Architect - Associate - SAA-C03
+                    </span>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-brands fa-aws"></i>
+                    <span>
+                        AWS Certified AI Practitioner - AIF-C01 - In Progress
+                    </span>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-brands fa-microsoft"></i>
+                    <span>Microsoft Azure Fundamentals - AZ-900</span>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-brands fa-microsoft"></i>
+                    <span>Microsoft Azure Administrator - AZ-104</span>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-brands fa-microsoft"></i>
+                    <span>Microsoft AI Fundamentals - In Progress</span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img
+                    src="assets/images/bat_logo_echo.jpg"
+                    alt="Electronics Homelab project image"
+                    loading="lazy"
+                >
+                <h3>Electronics Homelab</h3>
+                <p>
+                    An electronics lab to tinker and create workable
+                    prototypes using Arduino Uno, a Creality3 3D printer,
+                    and a soldering station.
+                </p>
             </div>
 
-            <div class="grid-card">
-                <i class="fa-solid fa-building-shield"></i>
-                <span>Security System Installer</span>
-                <h2>Subforce</h2>
-                <h3>Sept 2020 - Feb 2021</h3>
+            <div class="project-card">
+                <img
+                    src="assets/images/bat_logo_echo.jpg"
+                    alt="Portfolio website project image"
+                    loading="lazy"
+                >
+                <h3>This Website</h3>
+                <p>
+                    Resources provisioned using Terraform and hosted
+                    on an EC2 instance via AWS.
+                </p>
+
+                <div class="btn-group">
+                    <a
+                        href="https://github.com/RLovatt85/Portfolio_Showcase"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn"
+                    >
+                        GitHub Repo
+                    </a>
+                </div>
             </div>
 
-            <div class="grid-card">
-                <i class="fa-solid fa-car-side"></i>
-                <span>Parts Manager</span>
-                <h2>Performance Auto Group Collision</h2>
-                <h3>June 2015 - Sept 2020</h3>
+            <div class="project-card">
+                <img
+                    src="assets/images/bat_logo_echo.jpg"
+                    alt="Home Media Server project image"
+                    loading="lazy"
+                >
+                <h3>Home Media Server</h3>
+                <p>
+                    Created a local media server that allows network-connected
+                    televisions in my home to access pictures, movies, and TV
+                    shows from an older tower PC.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="assets/images/bat_logo_echo.jpg"
+                    alt="Eavesdropper Glove project image"
+                    loading="lazy"
+                >
+                <h3>Eavesdropper Glove</h3>
+                <p>
+                    A glove outfitted with multiple microphones on the
+                    fingertips and an audio amplifier circuit, designed
+                    to explore listening through walls.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="assets/images/python.jfif"
+                    alt="Python programming project"
+                    loading="lazy"
+                >
+                <h3>D&D Dice Roll</h3>
+                <p>A Python script simulating multiple dice rolls.</p>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="assets/images/python.jfif"
+                    alt="UFO Invaders game project"
+                    loading="lazy"
+                >
+                <h3>UFO Invaders</h3>
+                <p>
+                    A Python web game where you defend Earth from
+                    invaders from beyond the stars.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="assets/images/python.jfif"
+                    alt="Python password generator project"
+                    loading="lazy"
+                >
+                <h3>Python Password Generator</h3>
+                <p>
+                    A Python script that lets users select a password
+                    length and generate a random password.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="assets/images/bash.png"
+                    alt="Bash password generator project"
+                    loading="lazy"
+                >
+                <h3>Bash Password Generator</h3>
+                <p>
+                    A Bash script that lets users select a password
+                    length and generate a random password.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="assets/images/bash.png"
+                    alt="System Check Bash script project"
+                    loading="lazy"
+                >
+                <h3>System Check</h3>
+                <p>
+                    A Bash script that lets users select which
+                    systems they want to check on their local machine.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img
+                    src="assets/images/python.jfif"
+                    alt="Mad Libs Python project"
+                    loading="lazy"
+                >
+                <h3>Mad Libs</h3>
+                <p>A Python script for generating fun Mad Libs stories.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= KNOWLEDGEBASE SECTION ================= -->
+
+    <section id="knowledgebase" class="knowledgebase">
+        <h2 class="section-title">Knowledgebase</h2>
+
+        <div class="knowledgebase-categories">
+
+            <!-- Networking -->
+
+            <div class="skill-category">
+                <h3>Networking</h3>
+
+                <div class="skills-grid">
+                    <div class="grid-card">
+                        <i class="fa-solid fa-network-wired"></i>
+                        <span>TCP/IP</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>Firewalls</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-globe"></i>
+                        <span>DNS &amp; DHCP</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Active Directory</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Cloud & Infrastructure -->
+
+            <div class="skill-category">
+                <h3>Cloud &amp; Infrastructure</h3>
+
+                <div class="skills-grid">
+                    <div class="grid-card">
+                        <i class="fa-brands fa-microsoft"></i>
+                        <span>Microsoft Azure</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-aws"></i>
+                        <span>Amazon Web Services (AWS)</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-cloud"></i>
+                        <span>Virtualisation</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-code-branch"></i>
+                        <span>Terraform</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-desktop"></i>
+                        <span>SCCM</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Microsoft Intune</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <span>SOTI MobiControl</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-warehouse"></i>
+                        <span>WMS</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Operating Systems -->
+
+            <div class="skill-category">
+                <h3>Operating Systems</h3>
+
+                <div class="skills-grid">
+                    <div class="grid-card">
+                        <i class="fa-brands fa-windows"></i>
+                        <span>Windows</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-linux"></i>
+                        <span>Linux</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-android"></i>
+                        <span>Android</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Programming & Scripting -->
+
+            <div class="skill-category">
+                <h3>Programming &amp; Scripting</h3>
+
+                <div class="skills-grid">
+                    <div class="grid-card">
+                        <i class="fa-solid fa-code"></i>
+                        <span>C/C++</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>Arduino Programming</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-python"></i>
+                        <span>Python</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>Bash</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-windows"></i>
+                        <span>PowerShell</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Electronics & Embedded Systems -->
+
+            <div class="skill-category">
+                <h3>Electronics &amp; Embedded Systems</h3>
+
+                <div class="skills-grid">
+                    <div class="grid-card">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>PCB Design</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>MultiSIM</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>Arduino</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Soldering</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-gears"></i>
+                        <span>Custom Hardware Prototyping</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Hardware & Devices -->
+
+            <div class="skill-category">
+                <h3>Hardware &amp; Devices</h3>
+
+                <div class="skills-grid">
+                    <div class="grid-card">
+                        <i class="fa-solid fa-computer"></i>
+                        <span>PCs</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-tablet-screen-button"></i>
+                        <span>Tablets</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-barcode"></i>
+                        <span>Scanners</span>
+                    </div>
+
+                    <div class="grid-card">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Printers</span>
+                    </div>
+                </div>
             </div>
 
         </div>
 
-        <img src="assets/images/RyanLovatt_Profile_Picture.jpg" alt="">
 
-    </div>
+        <!-- Always Learning -->
 
-</section>
+        <div class="learning-card-container">
+            <div class="learning-card">
+                <i class="fa-solid fa-book-open"></i>
 
-<section id="educationandcertificates" class="educationandcertificates">
+                <h3>Always Learning</h3>
 
-    <!--Education-->
-    <h2 class="section-title">Education</h2>
-
-    <div class="education-info">
-
-        <div class="grid">
-
-            <div class="grid-card">
-                <i class="fa-solid fa-laptop-code"></i>
-                <span>Electronics Engineering Technology - Advanced Diploma</span>
-                <h2>Sheridan College Institute of Technology and Advanced Learning</h2>
-                <h3>2013 - 2015</h3>
-            </div>
-
-    <!-- Certifications -->
-    <h2 class="section-title">Certifications</h2>
-
-    <div class="certs-info">
-        <div class="grid">
-
-            <div class="grid-card">
-                <i class="fa-solid fa-certificate"></i>
-                <span>CompTIA A+</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-solid fa-certificate"></i>
-                <span>CompTIA Network+</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-brands fa-microsoft"></i>
-                <span>Microsoft Azure Fundamentals - AZ-900</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-brands fa-microsoft"></i>
-                <span>Microsoft Azure Administrator - AZ-104</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-brands fa-microsoft"></i>
-                <span>Microsoft AI Fundamentals - in progress</span>
-            </div>
-
-            <div class="grid-card">
-                <i class="fa-brands fa-aws"></i>
-                <span>AWS Solutions Architect - SAA-C03 - in progress</span>
-            </div>
-
-        </div>
-    </div>
-
-
-</section>
-
-<section id="projects" class="projects">
-
-    <h2 class="section-title">Projects</h2>
-
-    <div class="projects-grid">
-        <div class="project-card">
-            <img src="assets/images/bat_logo_echo.jpg" alt="">
-            <h3>Electronics Homelab</h3>
-            <p>An electronics lab to tinker and create workable prototypes using Arduino Uno, a Creality3 3D Printer, and soldering station</p>
-            <div class="btn-group">
-               <!--<div class="btn">Live Demo</div>-->
-               <!--<div class="btn">GitHub Repo</div>-->
+                <p>
+                    Continuously expanding my technical skill set
+                    and exploring new technologies.
+                </p>
             </div>
         </div>
 
-        <div class="project-card">
-            <img src="assets/images/bat_logo_echo.jpg" alt="">
-            <h3>This Website</h3>
-            <p>Resources provisioned using Terraform and hosted on an EC2 instance via AWS</p>
+    </section>
 
-            <div class="btn-group">
-               <!--<div class="btn">Live Demo</div>-->
-                <a href="https://github.com/RLovatt85/Portfolio_Showcase" target="_blank">
-                    <div class="btn">GitHub Repo</div>
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section id="contact" class="contact">
+        <div class="input-box">
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <!--
+                This is currently only a visual placeholder.
+                Add a form handler or a real contact service before
+                using this as a working contact form.
+            -->
+
+            <div class="input">
+
+                <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    placeholder="Enter Your Email"
+                    autocomplete="email"
+                >
+            </div>
+
+            <button class="btn" type="button" disabled>
+                Submit
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li>
+                <a href="#educationandcertificates">
+                    Education and Certifications
                 </a>
-            </div>
-        </div>
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#knowledgebase">Knowledgebase</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-        <div class="project-card">
-            <img src="assets/images/bat_logo_echo.jpg" alt="">
-            <h3>Home Media Server</h3>
-            <p>Created a localized media server for network connected televisions on my house's network to access Pictures, Movies, and TV Shows from an old tower PC</p>
-            <div class="btn-group">
-               <!--<div class="btn">Live Demo</div>-->
-               <!--<div class="btn">GitHub Repo</div>-->
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="assets/images/bat_logo_echo.jpg" alt="">
-            <h3>Eavesdropper Glove</h3>
-            <p>Glove outfitted with multiple microphones on the tips of the fingers enchanced by an audio amplifier circuit to allow police or military to listen through walls</p>
-            <div class="btn-group">
-               <!--<div class="btn">Live Demo</div>-->
-               <!--<div class="btn">GitHub Repo</div>-->
-            </div>
-        </div>
+        <p class="copyright">
+            &copy; All Rights Reserved | Ryan Lovatt | 2026
+        </p>
+    </footer>
 
 
-        <div class="project-card">
-            <img src="assets/images/python.jfif" alt="">
-            <h3>DnD Dice Roll</h3>
-            <p>A Python script simulating multiple dice rolls</p>
-            <div class="btn-group">
-                <div class="btn">Live Demo</div>
-                <div class="btn">GitHub Repo</div>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="assets/images/python.jfif" alt="">
-            <h3>UFO Invaders</h3>
-            <p>A Python web game where you defend earth from invaders from beyond the stars</p>
-            <div class="btn-group">
-                <div class="btn">Live Demo</div>
-                <div class="btn">GitHub Repo</div>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="assets/images/python.jfif" alt="">
-            <h3>Python Password Generator</h3>
-            <p>A Python script to select the length and generate random passwords </p>
-            <div class="btn-group">
-                <div class="btn">Live Demo</div>
-                <div class="btn">GitHub Repo</div>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="assets/images/bash.png" alt="">
-            <h3>Bash Password Generator</h3>
-            <p>A Bash script to select the length and generate random passwords</p>
-            <div class="btn-group">
-                <div class="btn">Live Demo</div>
-                <div class="btn">GitHub Repo</div>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="assets/images/bash.png" alt="">
-            <h3>System Check</h3>
-            <p>A Bash script to select the systems you wish to check on your local machine</p>
-            <div class="btn-group">
-                <div class="btn">Live Demo</div>
-                <div class="btn">GitHub Repo</div>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="assets/images/python.jfif" alt="">
-            <h3>Mad Libs</h3>
-            <p>A Python script to have some fun with some mad libs</p>
-            <div class="btn-group">
-                <div class="btn">Live Demo</div>
-                <div class="btn">GitHub Repo</div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section id="knowledgebase" class="knowledgebase">
-
-<!-- Knowledgebase -->
-<h2 class="section-title">Knowledgebase</h2>
-
-<div class="kb-info">
-    <div class="grid">
-
-        <div class="grid-card">
-            <i class="fa-brands fa-python"></i>
-            <span>Python</span>
-        </div>
-
-        <div class="grid-card">
-            <i class="fa-solid fa-database"></i>
-            <span>SQL</span>
-        </div>
-
-        <div class="grid-card">
-            <i class="fa-regular fa-file-code"></i>
-            <span>HTML</span>
-        </div>
-
-        <div class="grid-card">
-            <i class="fa-brands fa-css"></i>
-            <span>CSS</span>
-        </div>
-
-        <div class="grid-card">
-            <i class="fa-solid fa-terminal"></i>
-            <span>Bash</span>
-        </div>
-
-        <div class="grid-card">
-            <i class="fa-solid fa-code"></i>
-            <span>Terraform</span>
-        </div>
-
-        <div class="grid-card">
-            <i class="fa-regular fa-file-code"></i>
-            <span>C/C++</span>
-        </div>
-
-        <div class="grid-card">
-            <i class="fa-solid fa-bars-progress"></i>
-            <span>And Others</span>
-        </div>
-
-    </div>
-</div>
-    </div>
-</div>
-
-
-</section>
-
-
-<section id="contact" class="contact">
-    <div class="input-box">
-
-        <h2 class="section-title">Contact Me</h2>
-
-        <div class="input">
-            <input type="text" placeholder="Enter Your Email">
-        </div>
-
-        <div class="btn">Submit</div>
-    </div>
-</section>
-
-<footer>
-
-    <ul>
-        <li>
-            <a href="#about">About</a>
-        </li>
-
-            <li>
-            <a href="#experience">Experience</a>
-        </li>
-
-        <li>
-            <a href="#educationandcertificates">Education and Certifications</a>
-        </li>
-
-            <li>
-            <a href="#projects">Projects</a>
-        </li>
-
-        <li>
-            <a href="#knowledgebase">Knowledgebase</a>
-        </li>
-
-            <li>
-            <a href="#contact">Contact</a>
-        </li>
-    </ul>
-
-    <p class="copyright">&#169 All Rights Reserved | Ryan Lovatt | 2026</p>
-</footer>
+    <!-- ================= JAVASCRIPT ================= -->
 
     <script src="script.js"></script>
 
