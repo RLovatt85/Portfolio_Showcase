@@ -10,6 +10,28 @@
     font-display: swap;
 }
 
+:root {
+    /* Backgrounds */
+    --color-bg: #080808;
+    --color-surface: #111011;
+    --color-surface-hover: #1B1A1D;
+
+    /* Text */
+    --color-text: #F2F0EA;
+    --color-text-muted: #B8B8BE;
+    --color-text-subtle: #7F8086;
+
+    /* Structure */
+    --color-border: #515155;
+
+    /* Accents */
+    --color-gold: #CA922F;
+    --color-amber: #FFCC00;
+    --color-navy: #1E2765;
+    --color-burgundy: #7A2021;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -29,8 +51,8 @@ body {
     width: 100%;
     min-width: 0;
     overflow-x: clip;
-    background-color: #0B0D10;
-    color: #F2F0EA;
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
 img {
@@ -165,9 +187,11 @@ section {
     width: 100%;
     margin: 0 auto 3rem;
 
-    color: #C5A45B;
+    color: var(--color-gold);
+    -webkit-text-fill-color: var(--color-gold);
+
     background: none;
-    -webkit-text-fill-color: #C5A45B;
+
 
     font-size: 4rem;
     font-weight: 600;
@@ -336,8 +360,9 @@ section {
     border: 1px solid #C5A45B;
     border-radius: 1.5rem;
 
-    color: #0B0D10;
-    background-color: #F2F0EA;
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    border-color: var(--color-border);
 
     text-align: center;
     overflow-wrap: anywhere;
@@ -954,7 +979,7 @@ footer ul li a:hover::before {
 
     border: 2px solid #C5A45B;
     border-radius: 3rem;
-
+    border-color: var(--color-amber);
     color: #F2F0EA;
     background-color: transparent;
 
@@ -969,8 +994,8 @@ footer ul li a:hover::before {
 }
 
 .about .btn:hover {
-    color: #0B0D10;
-    background-color: #C5A45B;
+    color: var(--color-bg);
+    background-color: var(--color-amber);
     transform: translateY(-2px);
 }
 
