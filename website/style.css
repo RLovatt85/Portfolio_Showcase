@@ -734,6 +734,7 @@ footer ul li a:hover::before {
 .copyright {
     margin-top: 2rem;
     font-weight: 300;
+    color: var(--color-burgundy)    ;
 }
 /* ========================================
    SCROLLBAR
